@@ -1,0 +1,42 @@
+@import 'normalize';
+@import 'variables';
+@import 'components/fonts';
+@import 'components/navigation';
+
+body{
+    background:$orange;
+    font-family: 'Roboto-Regular';
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: "Roboto-Black";
+    text-transform: uppercase;
+    text-align:center;
+    color:$white;
+}
+a{
+    text-decoration: none;
+}
+
+
+.returnBtn{
+    position: absolute;
+    display: inline-block;
+    color:$white;
+    bottom:1rem;
+    right:1rem;
+}
+.addBtn{
+    display: inline-block;
+    color: $white;
+    padding: 1rem;
+}
+p{
+    padding:1rem;
+}
+
+input,select,button{
+    display: block;
+    margin:0.5rem 1rem;
+}

@@ -1,0 +1,65 @@
+.menu{
+    text-align: center;
+    ul{
+        display: inline-block;
+        padding:0;
+        margin:0;
+        li{
+            display: inline-block;
+
+        }
+        &.nospace{
+            li{
+                margin-right:-0.25rem;
+            }
+        }
+        a{
+            display: block;
+            padding:0.5rem;
+        }
+    }
+}
+//Menu Intro
+#MenuIntro{
+    ul{
+        display: block;
+        li{
+            display: block;
+            padding: 0 0.25rem;
+            box-sizing: border-box;
+            margin-bottom:0.25rem;
+        }
+    }
+    a{
+        background:$white;
+        color:$orange;
+        text-transform: uppercase;
+    }
+}
+
+@media #{$sm} {
+    //Menu Intro
+    #MenuIntro{
+        ul{
+            li{
+                display: inline-block;
+                width: 50%;
+            }
+        }
+    }
+}
+@media #{$md} {
+    //Menu Intro
+    #MenuIntro{
+        ul{
+            li{
+                display: inline-block;
+                width: auto;
+                
+            }
+        }
+        a{
+            padding: 0.5rem 1rem;
+        }
+    }
+}

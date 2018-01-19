@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url("../fonts/Roboto/Roboto-ThinItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url("../fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url("../fonts/Roboto/Roboto-LightItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url("../fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url("../fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"); }
+.menu {
+  text-align: center; }
+  .menu ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0; }
+    .menu ul li {
+      display: inline-block; }
+    .menu ul.nospace li {
+      margin-right: -0.25rem; }
+    .menu ul a {
+      display: block;
+      padding: 0.5rem; }
+
+#MenuIntro ul {
+  display: block; }
+  #MenuIntro ul li {
+    display: block;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+    margin-bottom: 0.25rem; }
+#MenuIntro a {
+  background: #ffffff;
+  color: #e96439;
+  text-transform: uppercase; }
+
+@media screen and (min-width: 36rem) {
+  #MenuIntro ul li {
+    display: inline-block;
+    width: 50%; } }
+@media screen and (min-width: 48rem) {
+  #MenuIntro ul li {
+    display: inline-block;
+    width: auto; }
+  #MenuIntro a {
+    padding: 0.5rem 1rem; } }
+body {
+  background: #e96439;
+  font-family: 'Roboto-Regular';
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: "Roboto-Black";
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff; }
+
+a {
+  text-decoration: none; }
+
+.returnBtn {
+  position: absolute;
+  display: inline-block;
+  color: #ffffff;
+  bottom: 1rem;
+  right: 1rem; }
+
+.addBtn {
+  display: inline-block;
+  color: #ffffff;
+  padding: 1rem; }
+
+p {
+  padding: 1rem; }
+
+input, select, button {
+  display: block;
+  margin: 0.5rem 1rem; }
+
+/*# sourceMappingURL=style.css.map */
